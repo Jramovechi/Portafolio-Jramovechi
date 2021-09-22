@@ -23,7 +23,7 @@ html {
 
 body {
     font-family: 'DM Sans', sans-serif;
-    background:var(--white);
+    background:black;
     color: #f5f5f5;
 }
 
@@ -44,6 +44,9 @@ section {
     justify-content: inherit;
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
+    z-index: 100;
+    
 }
 
 .navbar {
@@ -101,6 +104,10 @@ section {
     display: none;
     align-items: center;
     font-size: 35px;
+}
+
+.nav__idioma{
+    width: 20px;
 }
 
   /* BANNER PRESENTACIÓN */
