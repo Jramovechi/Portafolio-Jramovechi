@@ -30,6 +30,15 @@
     margin-top: 30px;
   }
 
+  .contenedor{
+    position: relative;
+    background-color: black;
+  }
+
+  .navbar{
+    background-color: black;
+  }
+
   section {
     padding: 50px 0;
     position: relative;
